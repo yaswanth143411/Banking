@@ -5,7 +5,9 @@ public class Bank {
     private String name;
     private double balance;
     private String bankName;
+public Bank(){
 
+}
     public Bank(int accNO, String name, double balance, String bankName) {
         this.accNO = accNO;
         this.name = name;
